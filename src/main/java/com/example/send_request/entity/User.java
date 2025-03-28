@@ -1,4 +1,4 @@
-package com.example.send_request.request;
+package com.example.send_request.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

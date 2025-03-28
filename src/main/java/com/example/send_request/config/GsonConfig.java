@@ -10,7 +10,7 @@ public class GsonConfig {
     @Bean
     public Gson gson() {
         return new GsonBuilder()
-                .setPrettyPrinting() // Format JSON đẹp hơn
+//                .setPrettyPrinting() // Format JSON đẹp hơn
                 .disableHtmlEscaping() // Tránh escape ký tự HTML
                 .create();
     }
