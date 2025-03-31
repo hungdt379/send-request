@@ -20,10 +20,12 @@ public class Log {
     @Column(name = "end_time")
     private String endTime;
 
-    @Column(name = "request_body")
+    @Lob
+    @Column(name = "request_body", columnDefinition = "TEXT")
     private String requestBody;
 
-    @Column(name = "response")
+    @Lob
+    @Column(name = "response", columnDefinition = "TEXT")
     private String response;
 
     public Long getId() {

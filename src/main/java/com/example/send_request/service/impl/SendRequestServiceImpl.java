@@ -46,6 +46,7 @@ public class SendRequestServiceImpl implements SendRequestService {
         log.setResponse(response);
         logger.info(response);
         sendRequestRepository.save(log);
+        logger.info(gson.toJson(log));
     }
 
     @Override
